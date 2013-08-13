@@ -26,6 +26,8 @@
 		D35552F813CB8D0700A84FA7 /* GenIsKeyword */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GenIsKeyword; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35552FC13CB8D0700A84FA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D35552FE13CB8D0700A84FA7 /* GenIsKeyword.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GenIsKeyword.1; sourceTree = "<group>"; };
+		D355530B13CCFCB600A84FA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D355530D13CCFCB600A84FA7 /* TestIsKeyword.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestIsKeyword.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				D35552FB13CB8D0700A84FA7 /* GenIsKeyword */,
+				D355530A13CCFCB600A84FA7 /* TestIsKeyword */,
 				D35552F913CB8D0700A84FA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +65,15 @@
 				D35552FE13CB8D0700A84FA7 /* GenIsKeyword.1 */,
 			);
 			path = GenIsKeyword;
+			sourceTree = "<group>";
+		};
+		D355530A13CCFCB600A84FA7 /* TestIsKeyword */ = {
+			isa = PBXGroup;
+			children = (
+				D355530B13CCFCB600A84FA7 /* main.cpp */,
+				D355530D13CCFCB600A84FA7 /* TestIsKeyword.1 */,
+			);
+			path = TestIsKeyword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
