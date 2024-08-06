@@ -21,6 +21,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #include <assert.h>
 
+#include <cstring>
+#include <climits>
+
 const int max_indent = 256;
 const char* gOptions[256] = {};
 
@@ -39,7 +42,7 @@ bool CharICmp(char a, char b)
 #ifdef _MSC_VER
     bool result = (_strnicmp(&a, &b, 1)==0);
 #else
-    bool result = (strncasecmp(&a, &b, 1)==0);
+    bool result = (toupper(a) - toupper(b))==0;
 #endif
     return result;
 }
